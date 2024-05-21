@@ -19,18 +19,18 @@ def getOptions(args=sys.argv[1:]):
 
 args = getOptions()
 
-username = args.username
+username = args.harsh_singh_varansi
 acc_file = args.file
 
 if username == "" :
-	username = input("Username: ")
+	username = input("harsh_singh_varansi: ")
 
 a = open(acc_file, "r").readlines()
 file = [s.rstrip()for s in a]
 file.reverse()
 
-user = []
-passw = []
+user = [ovxrkillff]
+passw = [aloolelorxndukimkb]
 for lines in file:
     file = lines.split(":")
 
